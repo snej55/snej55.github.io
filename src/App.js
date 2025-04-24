@@ -9,11 +9,23 @@ function App() {
         <div className="App-info">My stuff: </div>
       </header>
 
-      <div className="App-content">        
-        <iframe className="App-defblade" title="Defblade" frameborder="0" src="https://itch.io/embed/3268211?bg_color=1f244b&amp;fg_color=f6e79c&amp;link_color=a8605d&amp;border_color=6d6071" width="552" height="167"><a href="https://snej55.itch.io/defblade">Defblade by snej55</a></iframe>
+      <div className="App-content">
+        <div className="App-project">
+          <div className="defblade">
+            <div className="defblade-info">
+              <b>Defblade: </b> A pixel art platformer made from scratch with C++ and SDL2 for the <br></br>High Seas Hack Club event. For more info, check the github repo and <br></br>the itch.io page.
+
+              <a className="speedshifter-link" href="https://github.com/snej55/paper-world">https://github.com/snej55/paper-world</a>
+            </div>
+            <iframe className="App-defblade" title="Defblade" frameborder="0" src="https://itch.io/embed/3268211?linkback=true&amp;dark=true" width="552" height="167"><a href="https://snej55.itch.io/defblade">Defblade by snej55</a></iframe>
+          </div>
+        </div>
         <div className="App-project">
           <div className="speedshifter">
-            <div className="speedshifter-info">Speedshifter</div>
+            <div className="speedshifter-info">
+              <b>Speedshifter (Beta): </b> A practice app for musicians to change the tempo of audio tracks without affecting the pitch.
+              <a className="speedshifter-link" href="https://github.com/snej55/speedshifter">https://github.com/snej55/speedshifter</a>
+            </div>
             <img className="speedshifter-screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/a84d9c7e5a4eb1331766a7a6e4207f15280a7097_image.png" alt="speedshifter screenshot"></img>
           </div>
         </div>
