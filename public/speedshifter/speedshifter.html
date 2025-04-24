@@ -4,8 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Speedshifter</title>
+
+    <style>
+        body {
+            background-color: #222;
+        }
+
+        .speed-header {
+            background-color: rgb(28, 75, 77);
+            padding: 5px;
+            margin: 0px;
+            color: #FFF;
+            border-radius: 5px;
+            font-style: italic;
+        }
+
+        .container {
+            padding: 5px;
+            color: white;
+            background-color: #222;
+            border-radius: 5px;
+            min-height: 95vh;
+        }
+
+        .title {
+            background-color: #333;
+            padding: 5px;
+            border-radius: 1px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            padding-left: 20px;
+            border-left: 5px #888 solid;
+        }
+
+        .content {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .screenshot {
+            border: 1px #777 solid;
+            border-radius: 4px;
+            margin: 10px;
+        }
+
+        .info {
+            padding: 10px;
+            background-color: #262626;
+            margin: 10px;
+            width: fit-content;
+            max-width: 50vw;
+            overflow-wrap: break-word;
+            border-radius: 10px;
+            color: #d1d1d1;
+        }
+
+        .code {
+            padding: 10px;
+            background-color: #1f1e1e;
+            margin: 5px;
+            width: fit-content;
+            max-width: 50vw;
+            overflow-wrap: break-word;
+            border-radius: 2px;
+            color: #929292;
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
-    <h1>Speedshifter page</h1>
+    <div class="container">
+        <!-- <header class="speed-header">Speedshifter</header> -->
+        <div class="content">
+            <h1 class="title">Speedshifter</h1>
+            <div class="info">
+                <p1 class="text">Speedshifter is a practice tool designed for musicians to slow down the tempo of an audio track without affecting the pitch. This
+                    enables comfortable practice at slower speeds, improving accuracy and dexterity.<br></br>
+                    It is currently available on Linux x86-64, and is currently still in the beta phase of development. The Windows build is currently being worked on.<br></br>
+                    To try it out on Linux, you can clone the repo and run the install script:
+                </p1>
+                <div class="code">
+                    # clone the repo<br>
+                    mkdir speedshifter<br>
+                    cd speedshifter<br>
+                    git clone https://github.com/snej55/speedshifter.git<br></br>
+
+                    # build and install<br>
+                    chmod +x ./install.sh<br>
+                    ./install.sh
+                </div>
+                <br>
+                <b>NOTE: </b>To compile and run the program, it is required to first install <em>gstreamer</em> and it's plugins (<em>gst-plugins-base, gst-plugins-bad, gst-plugins-good, gst-plugins-ugly</em>) via your distro's package manager.
+                This will soon be added to the install script.
+            </div>
+            <img class="screenshot" alt="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/a84d9c7e5a4eb1331766a7a6e4207f15280a7097_image.png" width="499">
+        </div>
+    </div>
 </body>
 </html>
