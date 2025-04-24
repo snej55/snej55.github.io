@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img className="App-profile" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/625d0f22874bb07deef34985c8e742e8d2d04ce6_profile512.png" alt="profile"></img>
-        <div className="App-profile-label">Hi! I'm <a className="App-github" href="https://github.com/snej55"><b>@snej55</b></a></div>
+        <div className="App-profile-label">Hi! I'm Jens Kromdijk (<a className="App-github" href="https://github.com/snej55"><b>@snej55</b></a>)</div>
         <div className="App-info">Here's my stuff: </div>
       </header>
 
