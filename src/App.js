@@ -10,7 +10,13 @@ function App() {
       </header>
 
       <div className="App-content">        
-        <iframe className="App-project" frameborder="0" src="https://itch.io/embed/3268211?bg_color=1f244b&amp;fg_color=f6e79c&amp;link_color=a8605d&amp;border_color=6d6071" width="552" height="167"><a href="https://snej55.itch.io/defblade">Defblade by snej55</a></iframe>
+        <iframe className="App-defblade" title="Defblade" frameborder="0" src="https://itch.io/embed/3268211?bg_color=1f244b&amp;fg_color=f6e79c&amp;link_color=a8605d&amp;border_color=6d6071" width="552" height="167"><a href="https://snej55.itch.io/defblade">Defblade by snej55</a></iframe>
+        <div className="App-project">
+          <div className="speedshifter">
+            <div className="speedshifter-info">Speedshifter</div>
+            <img className="speedshifter-screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/a84d9c7e5a4eb1331766a7a6e4207f15280a7097_image.png" alt="speedshifter screenshot"></img>
+          </div>
+        </div>
       </div>
     </div>
   );
