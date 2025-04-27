@@ -77,6 +77,12 @@ body {
   /* margin: 20px; */
   border: 1px #949494 solid;
   border-radius: 5px;
+  transition: 0.3s;
+}
+
+.App-defblade:hover {
+  box-shadow: rgba(0, 0, 0, 0.8) 0 0 90px 33px;
+  transform: scale(1.05);
 }
 
 .defblade {

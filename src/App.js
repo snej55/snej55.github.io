@@ -14,8 +14,8 @@ function App() {
           <div className="defblade">
             <div className="defblade-info">
               <b>Defblade: </b> A pixel art platformer made from scratch with C++ and SDL2 for the <br></br>High Seas Hack Club event. For more info, check the github repo and <br></br>the itch.io page.
-
               <a className="speedshifter-link" href="https://github.com/snej55/paper-world" target="_blank" rel="noreferrer">https://github.com/snej55/paper-world</a>
+              <em>(originally called paper world)</em>
             </div>
             <iframe className="App-defblade" title="Defblade" frameborder="0" src="https://itch.io/embed/3268211?linkback=true&amp;dark=true" width="552" height="167"><a href="https://snej55.itch.io/defblade">Defblade by snej55</a></iframe>
           </div>
