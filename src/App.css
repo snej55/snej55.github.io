@@ -122,4 +122,30 @@
 .speedshifter-link {
   color: #fff;
   font-style: italic;
+  transition: 0.3s;
+}
+
+.speedshifter-link:hover {
+  color: #aaa;
+}
+
+.speedshifter-website {
+  color: #fff;
+  font-style: italic;
+  background-color: #574880;
+  width: fit-content;
+  padding: 2px;
+  border-radius: 3px;
+  padding-right: 4px;
+  padding-left: 4px;
+  transition: 0.3s;
+  margin-top: 5px;
+  border: 1px #acacac5f solid;
+}
+
+.speedshifter-website:hover {
+  background-color: #ffffff;
+  color: #574880;
+  padding-right: 8px;
+  padding-left: 8px;
 }
