@@ -39,6 +39,16 @@ function App() {
             <img className="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/09c4e625624368e4cdbd7eface26dba8b4bffc7a_screenshot_1.png" alt="messaging app screenshot"></img>
           </div>
         </div>
+        <div className="App-project">
+          <div class="speedshifter">
+            <div className="speedshifter-info">
+              <b>Explosive Lawn Mower Simulator: </b> An overengineered lawn mower simulator made with pygame-ce and pymunk, with spritestacks and over 400,000 blades of grass.
+              It was made in under 12 hours for the Scrapyard Hackathon in Cambridge, 2025.
+              <a className="speedshifter-link" href="https://github.com/snej55/explosive-lawn-mower" target="_blank" rel="noreferrer">https://github.com/snej55/explosive-lawn-mower</a>
+            </div>
+            <img className="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/c457ed0047db9ce7bbe6ae7185aac4ab395a636c_screenshot_2025-03-15_194840.png" alt="explosive lawn mower simulator"></img>
+          </div>
+        </div>
       </div>
     </div>
   );
