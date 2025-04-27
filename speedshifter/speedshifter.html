@@ -47,6 +47,12 @@
             border: 1px #777 solid;
             border-radius: 4px;
             margin: 10px;
+            transition: 0.5s;
+        }
+
+        .screenshot:hover {
+            transform: scale(1.1);
+            box-shadow: rgba(0, 0, 0, 0.8) 0 0 90px 33px;
         }
 
         .info {
@@ -70,6 +76,23 @@
             border-radius: 2px;
             color: #929292;
             font-style: italic;
+        }
+
+        .youtube-link {
+            background-color: #1f1e1e;
+            color: #ff5a7b;
+            /* font-style: italic */
+            transition: 0.4s;
+            width: fit-content;
+            padding: 5px;
+            border-radius: 5px;
+            /* border: 1px #fff */
+        }
+
+        .youtube-link:hover {
+            color: #fff;
+            margin-left: 5px;
+            background-color: #0000;
         }
     </style>
 </head>
@@ -98,9 +121,9 @@
                 <b>NOTE: </b>To compile and run the program, it is required to first install <em>gstreamer</em> and it's plugins (<em>gst-plugins-base, gst-plugins-bad, gst-plugins-good, gst-plugins-ugly</em>) via your distro's package manager.
                 This will soon be added to the install script.
             </div>
-            <img class="screenshot" alt="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/a84d9c7e5a4eb1331766a7a6e4207f15280a7097_image.png" width="499">
             <b>Demo: </b>
-            <a href="https://www.youtube.com/watch?v=HwDSWCLnhSs" style="color: #fff; font-style: italic">https://www.youtube.com/watch?v=HwDSWCLnhSs</a>
+            <a href="https://www.youtube.com/watch?v=HwDSWCLnhSs" class="youtube-link" target="_blank" rel="noreferrer">https://www.youtube.com/watch?v=HwDSWCLnhSs</a>
+            <img class="screenshot" alt="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/a84d9c7e5a4eb1331766a7a6e4207f15280a7097_image.png" width="499">
             <div class="info">
                 <b>Technical Info:</b> <br>
                 Speedshifter was developed using Kirigami2 and Qt6 for the user interface and window management, as well as other libraries from KDE Frameworks. For more information 
