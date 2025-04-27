@@ -27,7 +27,7 @@ function App() {
               <a className="speedshifter-link" href="https://github.com/snej55/speedshifter" target="_blank" rel="noreferrer">https://github.com/snej55/speedshifter</a>
               <b>Check it out here: </b> <a className="speedshifter-website" href="https://jensk.asleep.pw/speedshifter/speedshifter.html" target="_blank" rel="noreferrer">Speedshifter</a>
             </div>
-            <img className="speedshifter-screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/a84d9c7e5a4eb1331766a7a6e4207f15280a7097_image.png" alt="speedshifter screenshot"></img>
+            <img className="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/a84d9c7e5a4eb1331766a7a6e4207f15280a7097_image.png" alt="speedshifter screenshot"></img>
           </div>
         </div>
       </div>

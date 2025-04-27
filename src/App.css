@@ -112,6 +112,18 @@
   border-radius: 5px;
 }
 
+.screenshot {
+  border: 1px #777 solid;
+  border-radius: 4px;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+.screenshot:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.8) 0 0 90px 33px;
+}
+
 .speedshifter-info {
   padding: 5px;
   margin: 5px;
