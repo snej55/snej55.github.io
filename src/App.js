@@ -23,7 +23,7 @@ function App() {
         <div className="App-project">
           <div className="speedshifter">
             <div className="speedshifter-info">
-              <b>Speedshifter (Beta): </b> A practice app for musicians to change the tempo of audio tracks without affecting the pitch.
+              <b>Speedshifter (Beta): </b> A practice app for musicians to change the tempo of audio tracks without affecting the pitch. Made in C++ using Kirigami and GStreamer.
               <a className="speedshifter-link" href="https://github.com/snej55/speedshifter" target="_blank" rel="noreferrer">https://github.com/snej55/speedshifter</a>
               <b>Check it out here: </b> <a className="speedshifter-website" href="https://jensk.asleep.pw/speedshifter/speedshifter.html" target="_blank" rel="noreferrer">Speedshifter</a>
             </div>
@@ -42,7 +42,7 @@ function App() {
         <div className="App-project">
           <div class="speedshifter">
             <div className="speedshifter-info">
-              <b>Explosive Lawn Mower Simulator: </b> An overengineered lawn mower simulator made with pygame-ce and pymunk, with spritestacks and over 400,000 blades of grass.
+              <b>Explosive Lawn Mower Simulator: </b> An overengineered lawn mower simulator made with pygame-ce and pymunk, with spritestacks and over 400,000 blades of interactive grass.
               It was made in under 12 hours for the Scrapyard Hackathon in Cambridge, 2025.
               <a className="speedshifter-link" href="https://github.com/snej55/explosive-lawn-mower" target="_blank" rel="noreferrer">https://github.com/snej55/explosive-lawn-mower</a>
             </div>
@@ -62,7 +62,7 @@ function App() {
         <div className="App-project">
           <div class="speedshifter">
             <div className="speedshifter-info">
-              <b>KDevelop Wakatime Plugin: </b> A wakatime plugin designed for KDevelop. It uses wakatime-cli to send heartbeats.
+              <b>KDevelop Wakatime Plugin: </b> A wakatime plugin designed for KDevelop. It uses wakatime-cli to send heartbeats. Made with Qt6 and C++.
               <a className="speedshifter-link" href="https://github.com/snej55/kdevelop-wakatime-plugin" target="_blank" rel="noreferrer">https://github.com/snej55/kdevelop-wakatime-plugin</a>
             </div>
             <img className="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/85f9af74285aa69aacf5618472709f654b893f6f_image.png" alt="KDevelop Wakatime screenshot"></img>
@@ -75,6 +75,14 @@ function App() {
               <a className="speedshifter-link" href="https://editor.p5js.org/snej55/sketches/pq3lk0NZH" target="_blank" rel="noreferrer">https://editor.p5js.org/snej55/sketches/pq3lk0NZH</a>
             </div>
             <img className="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/cdab831dd76026037ea5391bd02cd22a42ccdc0c_image.png" alt="p5js platformer Wakatime screenshot"></img>
+          </div>
+        </div>
+        <div className="App-project">
+          <div class="speedshifter">
+            <div className="speedshifter-info">
+              <b>Zrrp (Older project): </b> First project with a more complex entity management system. Uses various 'chunking' systems to ensure efficient rendering. Made with python and pygame-ce.
+            </div>
+            <img className="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/25a04a67d8ea28526a5ea7526be90d67a7fc2d60_image.png" alt="Zrrp screenshot"></img>
           </div>
         </div>
       </div>
