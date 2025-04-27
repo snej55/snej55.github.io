@@ -6,7 +6,7 @@ function App() {
       <header className="App-header">
         <img className="App-profile" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/625d0f22874bb07deef34985c8e742e8d2d04ce6_profile512.png" alt="profile"></img>
         <div className="App-profile-label">Hi! I'm Jens Kromdijk (<a className="App-github" href="https://github.com/snej55"><b>@snej55</b></a>)</div>
-        <div className="App-info">Here's my stuff: </div>
+        <div className="App-info">Project gallery: </div>
       </header>
 
       <div className="App-content">
@@ -47,6 +47,24 @@ function App() {
               <a className="speedshifter-link" href="https://github.com/snej55/explosive-lawn-mower" target="_blank" rel="noreferrer">https://github.com/snej55/explosive-lawn-mower</a>
             </div>
             <img className="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/c457ed0047db9ce7bbe6ae7185aac4ab395a636c_screenshot_2025-03-15_194840.png" alt="explosive lawn mower simulator"></img>
+          </div>
+        </div>
+        <div className="App-project">
+          <div class="speedshifter">
+            <div className="speedshifter-info">
+              <b>Platformerre: </b> A vfx demo using and updating my pygame platformer engine, 'Fishipus'. Uses pygame-ce and moderngl for the graphics.
+              <a className="speedshifter-link" href="https://github.com/snej55/Platformerre" target="_blank" rel="noreferrer">https://github.com/snej55/Platformerre</a>
+              <a className="speedshifter-link" href="https://github.com/snej55/Fishipus" target="_blank" rel="noreferrer">https://github.com/snej55/Fishipus</a>
+            </div>
+            <img className="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/ff472a85ef3acb21555ae28bc629ec065c846168_image.png" alt="Platformerre screenshot"></img>
+          </div>
+        </div>
+        <div className="App-project">
+          <div class="speedshifter">
+            <div className="speedshifter-info">
+              <b>KDevelop Wakatime Plugin: </b> A wakatime plugin designed for KDevelop. It uses wakatime-cli to send heartbeats.
+            </div>
+            <img className="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/85f9af74285aa69aacf5618472709f654b893f6f_image.png" alt="KDevelop Wakatime screenshot"></img>
           </div>
         </div>
       </div>
