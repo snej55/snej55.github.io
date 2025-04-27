@@ -99,6 +99,19 @@
                 This will soon be added to the install script.
             </div>
             <img class="screenshot" alt="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/a84d9c7e5a4eb1331766a7a6e4207f15280a7097_image.png" width="499">
+            <b>Demo: </b>
+            <a href="https://www.youtube.com/watch?v=HwDSWCLnhSs" style="color: #fff; font-style: italic">https://www.youtube.com/watch?v=HwDSWCLnhSs</a>
+            <div class="info">
+                <b>Technical Info:</b> <br>
+                Speedshifter was developed using Kirigami2 and Qt6 for the user interface and window management, as well as other libraries from KDE Frameworks. For more information 
+                about this, see <a href="https://develop.kde.org/docs/" style="color: #fff; font-style: italic">https://develop.kde.org/docs/</a>. Speedshifter uses gstreamer to contruct the audio
+                pipeline, using the playbin element for playback across different audio formats. To 'shift' the tempo without affecting the pitch, the pitch and scaletempo plugins are
+                used. At first, the audio playback rate was changed by performing a seek to manually change the playback speed, but this was inffective with certain audio formats 
+                (notably mp3 files). Hence, the pitch element is used instead to changed the playback rate, which has worked for all of the audio formats tested. The scaletempo element
+                is used to scale the tempo without affecting the pitch (avoiding the chipmunk effect). For more information see: <a href="https://gstreamer.freedesktop.org/documentation/?gi-language=c" style="color: #fff; font-style: italic">gstreamer docs</a>, <a href="https://gstreamer.freedesktop.org/documentation/audiofx/scaletempo.html?gi-language=c" style="color: #fff; font-style: italic">scaletempo</a>.
+                <br><br>
+                For more in depth information on how the audio pipeline is contructed, see the source code: <a href="https://github.com/snej55/speedshifter/blob/main/src/player.cpp#L88" style="color: #fff; font-style: italic">Player::load()</a>.
+            </div>
         </div>
     </div>
 </body>
