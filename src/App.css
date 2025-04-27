@@ -1,5 +1,10 @@
+body {
+  background-color: #000;
+}
+
 .App {
   text-align: center;
+  /* overflow: hidden; */
 }
 
 .App-header {
@@ -49,7 +54,12 @@
   /* background: linear-gradient(rgb(0, 0, 0) 0%, rgba(121, 9, 9, 1) 65%, rgba(158, 118, 48, 1) 100%); */
   min-height: 55vh;
   display: flex;
-  flex-direction: unset;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  vertical-align: flex-start;
 }
 
 .App-project {
@@ -57,6 +67,7 @@
   height: fit-content;
   box-shadow: rgba(0, 0, 0, 0.8) 0 0 90px 33px;
   margin: 20px;
+  float: left;
 }
 
 .App-defblade {
@@ -116,7 +127,7 @@
   border: 1px #777 solid;
   border-radius: 4px;
   margin: 10px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .screenshot:hover {

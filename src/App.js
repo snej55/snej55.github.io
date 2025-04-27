@@ -30,6 +30,15 @@ function App() {
             <img className="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/a84d9c7e5a4eb1331766a7a6e4207f15280a7097_image.png" alt="speedshifter screenshot"></img>
           </div>
         </div>
+        <div className="App-project">
+          <div class="speedshifter">
+            <div className="speedshifter-info">
+              <b>Messaging App: </b> A chat site made with React and socket.io, with secure AES encryption, moderation and filtering. More info on the readme: <br></br>
+              <a className="speedshifter-link" href="https://github.com/snej55/chat_site" target="_blank" rel="noreferrer">https://github.com/snej55/chat_site</a>
+            </div>
+            <img className="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/09c4e625624368e4cdbd7eface26dba8b4bffc7a_screenshot_1.png" alt="messaging app screenshot"></img>
+          </div>
+        </div>
       </div>
     </div>
   );
