@@ -59,15 +59,17 @@ body {
   justify-content: center;
   align-items: flex-start;
   align-content: flex-start;
-  vertical-align: flex-start;
 }
 
 .App-project {
   width: fit-content;
   height: fit-content;
-  box-shadow: rgba(0, 0, 0, 0.8) 0 0 90px 33px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0 0 33px 33px;
   margin: 20px;
   float: left;
+  vertical-align: bottom;
+  object-fit: cover;
+  /* flex-grow: 1; */
 }
 
 .App-defblade {
