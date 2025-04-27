@@ -63,8 +63,18 @@ function App() {
           <div class="speedshifter">
             <div className="speedshifter-info">
               <b>KDevelop Wakatime Plugin: </b> A wakatime plugin designed for KDevelop. It uses wakatime-cli to send heartbeats.
+              <a className="speedshifter-link" href="https://github.com/snej55/kdevelop-wakatime-plugin" target="_blank" re="noreferrer">https://github.com/snej55/kdevelop-wakatime-plugin</a>
             </div>
             <img className="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/85f9af74285aa69aacf5618472709f654b893f6f_image.png" alt="KDevelop Wakatime screenshot"></img>
+          </div>
+        </div>
+        <div className="App-project">
+          <div class="speedshifter">
+            <div className="speedshifter-info">
+              <b>P5js platformer: </b> A precision platformer made from scratch in p5js, with custom level loading, a soundtrack, lava vfx, speedrunning and more.
+              <a className="speedshifter-link" href="https://editor.p5js.org/snej55/sketches/pq3lk0NZH" target="_blank" re="noreferrer">https://editor.p5js.org/snej55/sketches/pq3lk0NZH</a>
+            </div>
+            <img className="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/cdab831dd76026037ea5391bd02cd22a42ccdc0c_image.png" alt="p5js platformer Wakatime screenshot"></img>
           </div>
         </div>
       </div>
