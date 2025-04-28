@@ -71,7 +71,7 @@ function App() {
         <div className="App-project">
           <div class="speedshifter">
             <div className="speedshifter-info">
-              <b>P5js platformer: </b> A precision platformer made from scratch in p5js, with custom level loading, a soundtrack, lava vfx, speedrunning and more.
+              <b>P5js platformer: </b> A precision platformer made from scratch in p5js, with custom level loading, a soundtrack, lava vfx, speedrunning and more. Try it here:
               <a className="speedshifter-link" href="https://editor.p5js.org/snej55/sketches/pq3lk0NZH" target="_blank" rel="noreferrer">https://editor.p5js.org/snej55/sketches/pq3lk0NZH</a>
             </div>
             <img className="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/cdab831dd76026037ea5391bd02cd22a42ccdc0c_image.png" alt="p5js platformer Wakatime screenshot"></img>
@@ -83,6 +83,18 @@ function App() {
               <b>Zrrp (Older project): </b> First project with a more complex entity management system. Uses various 'chunking' systems to ensure efficient rendering. Made with python and pygame-ce.
             </div>
             <img className="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/25a04a67d8ea28526a5ea7526be90d67a7fc2d60_image.png" alt="Zrrp screenshot"></img>
+          </div>
+        </div>
+        <div className="App-project">
+          <div class="speedshifter">
+            <div className="speedshifter-info">
+              <b>World generation (Older project): </b> Terraria-style 2D world generation made with pygame-ce and moderngl. It includes layers, ores, caves and tunnels, as well as a world compression system for saving and loading. Rendering has basic lighting.
+              <a className="speedshifter-link" href="https://github.com/snej55/world-generation" target="_blank" rel="noreferrer">https://github.com/snej55/world-generation</a>
+            </div>
+            <div className="row">
+              <img className="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/886b88cd67925484af0a2ae9a83639eeb183a5b2_image.png" alt="world generation screenshot"></img>
+              <img className="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/e61d0889aab9605bc6b3112793b300d84c912bb9_image.png" alt="world generation screenshot"></img>
+            </div>
           </div>
         </div>
       </div>
