@@ -1,3 +1,3 @@
 ## TODO: 
 
--- [ ] Add screenshot from opengl project
+ * Add screenshot from opengl project
