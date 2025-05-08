@@ -1,19 +1,35 @@
 body {
-  background-color: #000;
+  background-image: url("https://hc-cdn.hel1.your-objectstorage.com/s/v3/ff472a85ef3acb21555ae28bc629ec065c846168_image.png");
+  /* background-repeat: no-repeat; */
+  height: 500px;
+  /* top: -100px; */
+  background-position: 50% 15%;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  background-attachment:fixed;
+  background-size: cover;
+  position: relative;
+  background-color: #0000;
 }
 
 .App {
   text-align: center;
   /* overflow: hidden; */
+  background-color: #0000;
 }
 
 .App-container
 {
-  background-color: #20202099;
+  /* background-color: #20202099; */
+  backdrop-filter: blur(10px) brightness(40%);
+  /* background-color: #0000; */
   margin: 5%;
   padding: 20px;
-  border-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
   border: 2px #999 solid;
+  border-bottom: none;
+  margin-bottom: 2px;
 }
 
 .App-header {
