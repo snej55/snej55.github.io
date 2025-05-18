@@ -160,6 +160,11 @@ body {
   transition: 0.3s;
   max-width: 450px;
   z-index: 0;
+  -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 
 .screenshot:hover {
