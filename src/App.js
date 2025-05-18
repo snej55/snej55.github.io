@@ -19,6 +19,7 @@ function App() {
                 <em>(originally called paper world)</em>
               </div>
               <iframe className="App-defblade" title="Defblade" frameborder="0" src="https://itch.io/embed/3268211?linkback=true&amp;dark=true" width="552" height="167"><a href="https://snej55.itch.io/defblade">Defblade by snej55</a></iframe>
+              <img className="screenshot" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/f7e46bbbc404e5e7bfc1f260a580f99cd4a28263_85c12c7c-2e36-4da2-8388-270ca70b1bcd-gif_25-01-2025_18-43-03.gif" alt="defblade gif"></img>
             </div>
           </div>
           <div className="App-project">
